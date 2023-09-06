@@ -1,5 +1,5 @@
 """
-URL configuration for djangoProject_almamarket project.
+URL configuration for shop project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.2/topics/http/urls/
@@ -20,7 +20,7 @@ from django.conf.urls.static import static
 
 from posts import views as post_views
 from users import views as user_views
-from djangoProject_almamarket import settings
+from shop import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
